@@ -2,10 +2,12 @@
 //
 
 #include <iostream>
-
+#include "Weekend_Practice0529.h"
+#include "Weekend_Practice0529_2.h"
 int main()
 {
-    std::cout << "Hello World!\n";
+	//Homework01_Run();
+	Homework02_Run();
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
