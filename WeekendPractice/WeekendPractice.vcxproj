@@ -126,10 +126,12 @@
     <ClCompile Include="WeekendPractice_Main.cpp" />
     <ClCompile Include="Weekend_Practice0529.cpp" />
     <ClCompile Include="Weekend_Practice0529_2.cpp" />
+    <ClCompile Include="Weekend_Practice0605_BattleShip.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Weekend_Practice0529.h" />
     <ClInclude Include="Weekend_Practice0529_2.h" />
+    <ClInclude Include="Weekend_Practice0605_BattleShip.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
