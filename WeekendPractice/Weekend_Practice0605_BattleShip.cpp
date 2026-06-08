@@ -1,7 +1,7 @@
 ﻿#include "Weekend_Practice0605_BattleShip.h"
-#include <cstdlib>
 #include <ctime>
 #include <iomanip>
+
 
 using namespace std;
 
@@ -98,7 +98,8 @@ void BattleShipGame::printBoard(char board[BOARD_SIZE][BOARD_SIZE]) {
 
     // 좌측 행 인덱스 표기와 함께 보드 배열 값들을 순차 출력
     for (int i = 0; i < BOARD_SIZE; ++i) {
-        cout << setw(2) << i << " "; // 자릿수 공백 정렬
+        //cout << setw(2) << i << " "; // 최소 2칸은 쓰도록하기
+        printf("%2d ",i);
         for (int j = 0; j < BOARD_SIZE; ++j) {
             cout << board[i][j] << " ";
         }
