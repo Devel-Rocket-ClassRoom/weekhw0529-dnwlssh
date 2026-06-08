@@ -4,10 +4,14 @@
 #include <iostream>
 #include "Weekend_Practice0529.h"
 #include "Weekend_Practice0529_2.h"
+#include "Weekend_Practice0605_BattleShip.h"
+
 int main()
 {
 	//Homework01_Run();
-	Homework02_Run();
+	//Homework02_Run();
+	BattleShipGame game;
+	game.play();
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
